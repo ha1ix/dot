@@ -1,0 +1,28 @@
+theme = "starlight"
+[editor.soft-wrap]
+enable = true
+max-wrap = 85
+max-indent-retain = 4
+wrap-indicator = ""
+
+[keys.normal]
+C-y = "yank_main_selection_to_clipboard"
+C-p = "paste_clipboard_after"
+
+
+[editor.indent-guides]
+render = true
+character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "error"
+
+[editor.lsp]
+# Disable automatically popups of signature parameter help
+auto-signature-help = false
+# Show LSP messages in the status line
+display-messages = true
+display-inlay-hints = true
+
