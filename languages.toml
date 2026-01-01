@@ -1,0 +1,16 @@
+[language-server]
+markdown-oxide = { command = "markdown-oxide" }
+[language-server.tinymist]
+command = "tinymist"
+
+[[language]]
+name = "markdown"
+language-servers = [ "markdown-oxide" ]
+formatter = { command = "rumdl", args = [ "fmt", "--stdin", "md" ]}
+auto-format = true
+
+[[language]]
+name = "typst"
+language-servers = ["tinymist"]
+formatter.command = "typstyle"
+auto-format = true
