@@ -1,0 +1,49 @@
+version: 1
+theme: "Starlight"
+margin: 0
+
+# ============================================================================
+# Custom Themes
+# ============================================================================
+# Add your own themes below. Find Base16 themes at:
+# https://github.com/tinted-theming/schemes
+#
+# Example:
+#   - scheme: "My Custom Theme"
+#     author: "Your Name"
+#     base00: "1F1F28"    # Main background
+#     base01: "2A2A37"    # Lighter background (status bars)
+#     base02: "223249"    # Selection background
+#     base03: "727169"    # Comments, muted text
+#     base04: "C8C093"    # Dark foreground
+#     base05: "DCD7BA"    # Default text
+#     base06: "DCD7BA"    # Light foreground
+#     base07: "E6E0C2"    # Brightest text
+#     base08: "C34043"    # Red (errors)
+#     base09: "FFA066"    # Orange (constants)
+#     base0A: "DCA561"    # Yellow (search)
+#     base0B: "98BB6C"    # Green (strings)
+#     base0C: "7FB4CA"    # Cyan
+#     base0D: "7E9CD8"    # Blue (links)
+#     base0E: "957FB8"    # Purple (keywords)
+#     base0F: "D27E99"    # Brown/Pink
+
+custom_themes:
+  - scheme: "Starlight"
+    author: "eemilhaa <eemil.haapanen@gmail.com>"
+    base00: "242424"    # Main background (dark-bg)
+    base01: "2D2D2D"    # Lighter background (medium-bg)
+    base02: "353535"    # Selection background (light-bg)
+    base03: "929292"    # Comments, muted text (dark-fg)
+    base04: "C9C9C9"    # Dark foreground (punct)
+    base05: "E6E6E6"    # Default text (light-fg)
+    base06: "E6E6E6"    # Light foreground
+    base07: "ffffff"    # Brightest text (white)
+    base08: "FF4D51"    # Red (errors)
+    base09: "FF4D51"    # Orange (using red since no orange defined)
+    base0A: "E9E836"    # Yellow (search)
+    base0B: "35D450"    # Green (strings)
+    base0C: "24DFC4"    # Cyan
+    base0D: "5DC5F8"    # Blue (links)
+    base0E: "FEABF2"    # Purple (keywords - using magenta)
+    base0F: "24ACD4"    # Brown/Pink (using dark-blue)
